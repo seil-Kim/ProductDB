@@ -1,0 +1,35 @@
+package Product;
+
+public class Tran {
+	
+	private String tdate;
+	private String pno;
+	private String pname;
+	private int tcnt;
+	
+	public String getTdate() {
+		return tdate;
+	}
+	public void setTdate(String tdate) {
+		this.tdate = tdate;
+	}
+	public String getPno() {
+		return pno;
+	}
+	public void setPno(String pno) {
+		this.pno = pno;
+	}
+	public String getPname() {
+		return pname;
+	}
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+	public int getTcnt() {
+		return tcnt;
+	}
+	public void setTcnt(int tcnt) {
+		this.tcnt = tcnt;
+	}
+
+}
